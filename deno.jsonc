@@ -4,6 +4,10 @@
     "test": "deno test --allow-write=. --allow-read=.",
     "hook": "deno run --allow-read=. --allow-write=. https://deno.land/x/deno_hooks@0.1.1/mod.ts"
   },
+  "imports": {
+    "testing/": "https://deno.land/std@0.207.0/testing/",
+    "assert/": "https://deno.land/std@0.207.0/assert/"
+  },
   "compilerOptions": {
     "strict": true,
     "noUncheckedIndexedAccess": true
