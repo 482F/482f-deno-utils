@@ -6,7 +6,8 @@
   },
   "imports": {
     "testing/": "https://deno.land/std@0.207.0/testing/",
-    "assert/": "https://deno.land/std@0.207.0/assert/"
+    "assert/": "https://deno.land/std@0.207.0/assert/",
+    "react": "https://esm.sh/react@18.2.0"
   },
   "compilerOptions": {
     "strict": true,
